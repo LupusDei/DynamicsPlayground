@@ -21,6 +21,7 @@
 		6229F7A2189C40BF00521F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229F784189C40BE00521F79 /* UIKit.framework */; };
 		6229F7AA189C40BF00521F79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6229F7A8189C40BF00521F79 /* InfoPlist.strings */; };
 		6229F7AC189C40BF00521F79 /* DynamicsPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229F7AB189C40BF00521F79 /* DynamicsPlaygroundTests.m */; };
+		6229F7BA189C81ED00521F79 /* JMMThrowableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229F7B9189C81ED00521F79 /* JMMThrowableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6229F7A7189C40BF00521F79 /* DynamicsPlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicsPlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		6229F7A9189C40BF00521F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6229F7AB189C40BF00521F79 /* DynamicsPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicsPlaygroundTests.m; sourceTree = "<group>"; };
+		6229F7B8189C81ED00521F79 /* JMMThrowableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMThrowableView.h; sourceTree = "<group>"; };
+		6229F7B9189C81ED00521F79 /* JMMThrowableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMThrowableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				6229F792189C40BE00521F79 /* Main.storyboard */,
 				6229F795189C40BE00521F79 /* JMMViewController.h */,
 				6229F796189C40BE00521F79 /* JMMViewController.m */,
+				6229F7B8189C81ED00521F79 /* JMMThrowableView.h */,
+				6229F7B9189C81ED00521F79 /* JMMThrowableView.m */,
 				6229F798189C40BE00521F79 /* Images.xcassets */,
 				6229F787189C40BE00521F79 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6229F7BA189C81ED00521F79 /* JMMThrowableView.m in Sources */,
 				6229F78D189C40BE00521F79 /* main.m in Sources */,
 				6229F791189C40BE00521F79 /* JMMAppDelegate.m in Sources */,
 				6229F797189C40BE00521F79 /* JMMViewController.m in Sources */,
